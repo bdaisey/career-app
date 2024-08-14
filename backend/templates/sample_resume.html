@@ -1,5 +1,38 @@
 <!-- templates/sample_resume.html -->
 {% extends 'base.html' %} {% block content %}
-<h2>Sample Resume</h2>
-<p>check it out!!</p>
+<h2>Sample Resume:</h2>
+<br />
+
+<h1>{{usr.personal_info_entries.first.full_name}}</h1>
+<h3>
+  {{usr.personal_info_entries.first.email}},
+  {{usr.personal_info_entries.first.phone}},
+  {{usr.personal_info_entries.first.website}}
+</h3>
+<hr />
+
+<h2>Skills</h2>
+<p>{% for rs in rez.resumeskill_set.all %} {{rs.skill.name}}, {% endfor %}</p>
+<hr />
+<h2>WorkExperience</h2>
+{% for rj in rez.resumejob_set.all %}
+<h3>{{ rj.job.job_title }} at {{rj.job.company_name }}</h3>
+<ul>
+  {% for rjb in rj.resumejobbullet_set.all %}
+  <li>{{rjb.bullet.content}}</li>
+  {% endfor %}
+</ul>
+{% endfor %}
+<hr />
+<h2>Education</h2>
+<ul>
+  {% for re in rez.resumeeducation_set.all %}
+  <li>
+    <h3>
+      {{re.education.degree}} in {{re.education.field_of_study}} at
+      {{re.education.school_name}}
+    </h3>
+  </li>
+  {% endfor %}
+</ul>
 {% endblock %}
