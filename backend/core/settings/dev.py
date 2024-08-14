@@ -18,3 +18,5 @@ MIDDLEWARE.insert(
     MIDDLEWARE.index('django.middleware.security.SecurityMiddleware') + 1,
     'debug_toolbar.middleware.DebugToolbarMiddleware'
 )
+
+INTERNAL_IPS = ['127.0.0.1', 'localhost',]
