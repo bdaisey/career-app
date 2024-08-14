@@ -1,18 +1,15 @@
 # Project Roadmap
 
-## Django backend and admin setup
+## Django backend, admin, basic frontend setup
 
 - [x] Create models - Resume, PersonalInfo, Job, Bullet, Education, Skill
 - [x] Create migrations and migrate
 - [x] Setup admin and create a test resume
+- [ ] Django template to display a resume
 - [ ] Write dump/load fixtures for resume db
 - [ ] Dump test resume
 - [ ] Switch to new db and load test resume
 - [ ] Write and test csv importer for Bullet (cols: job_id, bullet)
-
-## Basic frontend
-
-- [ ] Django template to display a resume
 
 ## DRF setup
 
