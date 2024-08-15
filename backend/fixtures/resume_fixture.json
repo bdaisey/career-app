@@ -92,7 +92,7 @@
         "uuid": "e9af632a-7ae1-4350-bc93-be20024ecc85",
         "title": "Management Resume",
         "created_at": "2024-08-13T20:37:32.852Z",
-        "updated_at": "2024-08-13T21:29:12.959Z"
+        "updated_at": "2024-08-15T15:24:01.762Z"
     }
 },
 {
@@ -124,7 +124,7 @@
         "uuid": "fa3e5048-95f6-4dde-b128-a7ffb18c9a0e",
         "title": "Service Industry",
         "created_at": "2024-08-14T12:04:56.600Z",
-        "updated_at": "2024-08-14T13:33:27.851Z"
+        "updated_at": "2024-08-15T15:20:24.254Z"
     }
 },
 {
@@ -852,7 +852,7 @@
             "Bothering all the other Dogs",
             "Self-employed"
         ],
-        "order": 1
+        "order": 2
     }
 },
 {
@@ -867,7 +867,7 @@
             "Chief Scrap Finder",
             "Kitchen Patrol"
         ],
-        "order": 2
+        "order": 1
     }
 },
 {
@@ -913,6 +913,21 @@
             "Capital Threads"
         ],
         "order": 2
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "job": [
+            "brian",
+            "Owner",
+            "LLG"
+        ],
+        "order": 3
     }
 },
 {

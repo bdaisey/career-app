@@ -11,7 +11,18 @@
 
 ## Fixtures
 
-python manage.py dumpdata auth.User --indent 4 --natural-primary --natural-foreign > test_dump_user.json
-python manage.py dumpdata resume --indent 4 --natural-primary --natural-foreign > test_dump_resume.json
+### Dump existing database to fixture files.
 
-python manage.py dumpdata auth.User --indent 4 > test_dump_user.json
+There are only 2 apps with fixtures that we need to dump: Users and Resume. Simply run the following commands:
+
+`python manage.py dumpdata auth.User --indent 4 --natural-primary --natural-foreign > fixtures/user_fixture.json`
+
+`python manage.py dumpdata resume --indent 4 --natural-primary --natural-foreign > fixtures/resume_fixture.json`
+
+### Load fixture files into fresh db.
+
+Move or delete the existing database, run `migrate` to prep a fresh db, and load the fixtures. User fixtures must be loaded first because Resume fixtures reference Users. Run the following:
+
+`python manage.py migrate`
+
+`python manage.py loaddata fixtures/user_fixture.json fixtures/resume_fixture.json`
