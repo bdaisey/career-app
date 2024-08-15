@@ -6,19 +6,28 @@
 - [x] Create migrations and migrate
 - [x] Setup admin and create a test resume
 - [x] Django template to display a resume
-- [ ] Write dump/load fixtures for resume db
-- [ ] Dump test resume
-- [ ] Switch to new db and load test resume
-- [ ] Write and test csv importer for Bullet (cols: job_id, bullet)
+- [ ] Add to resume models to allow natural keys during fixture dump/load
+- [ ] Add 'personal_info' field to resume model and admin
+- [ ] Dump resume models and users
+- [ ] Switch to new db and load resume models and users
+- [ ] Script to load fixtures in correct order (dump too?)
+- [ ] Write usage instructions for fixtures, include how to add new bullets
 
 ## DRF setup
 
 - [ ] Add DRF and serializers
+- [ ] Install docs for API
+- [ ] Test API
+- [ ] Write template to display single resume using API instead of db
+
+## Project enhancements
+
 - [ ] Add linters/formatters
+- [ ] Add pre-commit hooks
+- [ ] Research other enhancements to add
 
 ## React basic frontend
 
-- [ ] Add 2 more test resumes
 - [ ] Add a dropdown to select a resume display its content
 - [ ] Add drag and drop reorder of sections Job, Education, Skill
 - [ ] Add drag and drop reorder of Bullets within Job

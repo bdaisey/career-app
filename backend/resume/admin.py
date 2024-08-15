@@ -12,6 +12,7 @@ class FilterByResumeUserMixin:
         if request._obj_ is not None:
             user = request._obj_.user
             model_map = {
+                'personal_info': PersonalInfo,
                 'job': Job,
                 'skill': Skill,
                 'education': Education,

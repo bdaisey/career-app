@@ -8,3 +8,10 @@
 2. Create Resume and add previously created Skills, Educations, Jobs
 
 3. To attach Bullets to a ResumeJob, edit ResumeJobs that were created in Step 2. (By editing already created ResumeJobs, the available Bullets will be filtered correctly. If adding a totally new Bullet from the popup window in this view, make sure to associate it with the current Job)
+
+## Fixtures
+
+python manage.py dumpdata auth.User --indent 4 --natural-primary --natural-foreign > test_dump_user.json
+python manage.py dumpdata resume --indent 4 --natural-primary --natural-foreign > test_dump_resume.json
+
+python manage.py dumpdata auth.User --indent 4 > test_dump_user.json

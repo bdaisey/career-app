@@ -1,0 +1,1248 @@
+[
+{
+    "model": "resume.personalinfo",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "6a27a5dc-e257-4293-8c95-ac3b463a2272",
+        "title": "Otisserie",
+        "full_name": "Brian Daisey",
+        "email": "bdaisey@example.com",
+        "phone": "2402005567",
+        "address": "1352 Otis",
+        "linkedin": "http://www.linkedin.com/in/briandaisey",
+        "website": "http://www.briandaisey.com"
+    }
+},
+{
+    "model": "resume.personalinfo",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "9e5b7dee-3322-45dd-b9f3-a3110bc477d4",
+        "title": "Overton Lame",
+        "full_name": "Brian Daisey",
+        "email": "brianold@example.com",
+        "phone": "3013842745",
+        "address": "13910 Overton Lane",
+        "linkedin": "http://www.linkedin.com/in/briandaisey",
+        "website": "http://www.capcity.live"
+    }
+},
+{
+    "model": "resume.personalinfo",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "7d1bc05d-cc36-477a-8255-627a909a00dc",
+        "title": "Oz",
+        "full_name": "Wizard of Oz",
+        "email": "wiz@example.com",
+        "phone": "5555555555",
+        "address": "123 Yellow Brick Road",
+        "linkedin": null,
+        "website": null
+    }
+},
+{
+    "model": "resume.personalinfo",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "uuid": "3c7fc437-6426-48e6-bb22-a7bccf187246",
+        "title": "Pep Info",
+        "full_name": "Pepper the Dog",
+        "email": "peps@example.com",
+        "phone": "3013013013",
+        "address": "1352 Otis Pl NW, Ste. Underdesk",
+        "linkedin": null,
+        "website": null
+    }
+},
+{
+    "model": "resume.resume",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "personal_info": [
+            "brian",
+            "Otisserie"
+        ],
+        "uuid": "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+        "title": "Software Resume",
+        "created_at": "2024-08-13T20:37:24.759Z",
+        "updated_at": "2024-08-14T18:47:41.907Z"
+    }
+},
+{
+    "model": "resume.resume",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "personal_info": [
+            "brian",
+            "Overton Lame"
+        ],
+        "uuid": "e9af632a-7ae1-4350-bc93-be20024ecc85",
+        "title": "Management Resume",
+        "created_at": "2024-08-13T20:37:32.852Z",
+        "updated_at": "2024-08-13T21:29:12.959Z"
+    }
+},
+{
+    "model": "resume.resume",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "personal_info": [
+            "brian",
+            "Oz"
+        ],
+        "uuid": "b267821b-1cbe-4f27-8423-d02b31dc1204",
+        "title": "Other other resume",
+        "created_at": "2024-08-14T11:34:39.671Z",
+        "updated_at": "2024-08-14T13:20:51.783Z"
+    }
+},
+{
+    "model": "resume.resume",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "personal_info": [
+            "littledog",
+            "Pep Info"
+        ],
+        "uuid": "fa3e5048-95f6-4dde-b128-a7ffb18c9a0e",
+        "title": "Service Industry",
+        "created_at": "2024-08-14T12:04:56.600Z",
+        "updated_at": "2024-08-14T13:33:27.851Z"
+    }
+},
+{
+    "model": "resume.education",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "ba80fa78-c361-41b8-a34f-e2e1734a81d7",
+        "school_name": "UMD",
+        "degree": "Bachelors",
+        "field_of_study": "Business",
+        "start_date": "2022-11-01",
+        "end_date": "2023-12-01",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.education",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "ca0bdb1d-435c-4212-a269-b0caad09c99b",
+        "school_name": "UMD",
+        "degree": "BS",
+        "field_of_study": "Computer Science",
+        "start_date": "2024-07-09",
+        "end_date": "2024-08-02",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.education",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "9c526768-a5c2-48ef-967e-4e4d41545ed5",
+        "school_name": "Oxford",
+        "degree": "Master of Master Doctors",
+        "field_of_study": "Everything",
+        "start_date": "2024-08-14",
+        "end_date": "2024-08-14",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.education",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "uuid": "bf1f4630-1c00-4541-9831-d0e37210d1d1",
+        "school_name": "K9 Academy",
+        "degree": "Certificate of Good Girl",
+        "field_of_study": "Behaving All Around",
+        "start_date": "2024-08-14",
+        "end_date": "2024-08-14",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.resumeeducation",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "education": [
+            "brian",
+            "UMD",
+            "Bachelors",
+            "Business"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeeducation",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "education": [
+            "brian",
+            "UMD",
+            "BS",
+            "Computer Science"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeeducation",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "education": [
+            "brian",
+            "Oxford",
+            "Master of Master Doctors",
+            "Everything"
+        ],
+        "order": 3,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeeducation",
+    "fields": {
+        "resume": [
+            "brian",
+            "Other other resume"
+        ],
+        "education": [
+            "brian",
+            "Oxford",
+            "Master of Master Doctors",
+            "Everything"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeeducation",
+    "fields": {
+        "resume": [
+            "littledog",
+            "Service Industry"
+        ],
+        "education": [
+            "littledog",
+            "K9 Academy",
+            "Certificate of Good Girl",
+            "Behaving All Around"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeeducation",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "education": [
+            "brian",
+            "UMD",
+            "Bachelors",
+            "Business"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeeducation",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "education": [
+            "brian",
+            "UMD",
+            "BS",
+            "Computer Science"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "b714cadd-b1ee-4e49-8476-106b8b40b0ec",
+        "name": "Word"
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "fd90bb27-8acb-4d85-bf40-b73c0df338ae",
+        "name": "Python"
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "ae787ece-2786-4eb8-a94a-c20f5f0bbf92",
+        "name": "Ops Mgmt"
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "f7456890-b258-4e90-b877-13bbecde6198",
+        "name": "Photography"
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "8e555aba-9bcc-489d-a21a-88562e866c11",
+        "name": "Herding Cats"
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "uuid": "574a4c90-86c5-4304-ad3b-02b2ef36440d",
+        "name": "Fetch"
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "uuid": "aa807bfe-1ab0-4342-ab24-845ed4e3f51c",
+        "name": "Nap"
+    }
+},
+{
+    "model": "resume.skill",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "uuid": "67fdd406-3efd-4922-b732-8d0f3d5e20f6",
+        "name": "Swim"
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "skill": [
+            "brian",
+            "Ops Mgmt"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "skill": [
+            "brian",
+            "Photography"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "skill": [
+            "brian",
+            "Python"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "skill": [
+            "brian",
+            "Word"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "skill": [
+            "brian",
+            "Herding Cats"
+        ],
+        "order": 4,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "brian",
+            "Other other resume"
+        ],
+        "skill": [
+            "brian",
+            "Herding Cats"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "brian",
+            "Other other resume"
+        ],
+        "skill": [
+            "brian",
+            "Photography"
+        ],
+        "order": 3,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "littledog",
+            "Service Industry"
+        ],
+        "skill": [
+            "littledog",
+            "Fetch"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumeskill",
+    "fields": {
+        "resume": [
+            "littledog",
+            "Service Industry"
+        ],
+        "skill": [
+            "littledog",
+            "Nap"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.job",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+        "job_title": "Software Dev",
+        "company_name": "IMS",
+        "start_date": "2024-08-13",
+        "end_date": "2024-08-13",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.job",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "be44d26d-f676-4111-96bc-1871d7f82ba1",
+        "job_title": "Cofounder",
+        "company_name": "Capital Threads",
+        "start_date": "2024-08-13",
+        "end_date": "2024-08-13",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.job",
+    "fields": {
+        "user": [
+            "brian"
+        ],
+        "uuid": "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8",
+        "job_title": "Owner",
+        "company_name": "LLG",
+        "start_date": "2024-08-14",
+        "end_date": "2024-08-14",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.job",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "uuid": "05e5750b-0c91-4d6f-815e-52269f9153e3",
+        "job_title": "Bothering all the other Dogs",
+        "company_name": "Self-employed",
+        "start_date": "2024-08-14",
+        "end_date": "2024-08-14",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.job",
+    "fields": {
+        "user": [
+            "littledog"
+        ],
+        "uuid": "9c8776ce-7fc0-49e4-9333-66f68843fd33",
+        "job_title": "Chief Scrap Finder",
+        "company_name": "Kitchen Patrol",
+        "start_date": "2024-08-14",
+        "end_date": "2024-08-14",
+        "is_current": false,
+        "description": ""
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "uuid": "6cc4f78b-6000-43fb-8f15-d29a66ce060a",
+        "content": "Did code"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "uuid": "46e9a067-996e-4d05-ae50-01cccc5d17bd",
+        "content": "Fixed bugs"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Cofounder",
+            "Capital Threads"
+        ],
+        "uuid": "67de58c1-770d-4f8b-ab18-4f00e29c648e",
+        "content": "Printed shirts"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Cofounder",
+            "Capital Threads"
+        ],
+        "uuid": "45183cd1-5136-4b57-85cb-80be107bc2c0",
+        "content": "Got customers"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Cofounder",
+            "Capital Threads"
+        ],
+        "uuid": "135e3f8e-f0bc-45a4-9feb-35268e477bb2",
+        "content": "Created Invoices"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "uuid": "bf03db34-0dc9-455b-aaae-1f61a05e9027",
+        "content": "Wrote unit tests"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Owner",
+            "LLG"
+        ],
+        "uuid": "1b3bcc10-6f17-41fc-b73c-70fce90e61ea",
+        "content": "Cut Grass"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Owner",
+            "LLG"
+        ],
+        "uuid": "1883d9ed-ccd1-4baa-9de7-1d57312d68d4",
+        "content": "Found customers"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "littledog",
+            "Bothering all the other Dogs",
+            "Self-employed"
+        ],
+        "uuid": "7a434a6c-09d7-4aec-b7e8-0b9fb6a6f672",
+        "content": "Nipping at heels"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "littledog",
+            "Bothering all the other Dogs",
+            "Self-employed"
+        ],
+        "uuid": "de3b6ca9-2dae-4b58-ac02-ff1d7cbe5dcd",
+        "content": "Wrestling whether they like it or not"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "littledog",
+            "Chief Scrap Finder",
+            "Kitchen Patrol"
+        ],
+        "uuid": "c29c96e0-f61b-4688-8bd4-81aa51e83d45",
+        "content": "Eat the chicken that falls down"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "littledog",
+            "Chief Scrap Finder",
+            "Kitchen Patrol"
+        ],
+        "uuid": "bb18c2cb-65cd-4530-ac72-f7bc94342b15",
+        "content": "Chew on onion skin, spit it out"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "uuid": "609b2368-f5aa-4b04-9b02-dccc79bd95bc",
+        "content": "Handle client calls"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "littledog",
+            "Chief Scrap Finder",
+            "Kitchen Patrol"
+        ],
+        "uuid": "87749b5d-e124-43b9-a8d3-e60a89ded9f5",
+        "content": "Looking in the trash"
+    }
+},
+{
+    "model": "resume.bullet",
+    "fields": {
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "uuid": "0f9b999a-1f92-422c-a8b0-f80f561d88a2",
+        "content": "Handling client calls"
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "order": 2
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Management Resume"
+        ],
+        "job": [
+            "brian",
+            "Cofounder",
+            "Capital Threads"
+        ],
+        "order": 1
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "job": [
+            "brian",
+            "Owner",
+            "LLG"
+        ],
+        "order": 3
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Other other resume"
+        ],
+        "job": [
+            "brian",
+            "Owner",
+            "LLG"
+        ],
+        "order": 1
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "littledog",
+            "Service Industry"
+        ],
+        "job": [
+            "littledog",
+            "Bothering all the other Dogs",
+            "Self-employed"
+        ],
+        "order": 1
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "littledog",
+            "Service Industry"
+        ],
+        "job": [
+            "littledog",
+            "Chief Scrap Finder",
+            "Kitchen Patrol"
+        ],
+        "order": 2
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Other other resume"
+        ],
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "order": 2
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "job": [
+            "brian",
+            "Software Dev",
+            "IMS"
+        ],
+        "order": 1
+    }
+},
+{
+    "model": "resume.resumejob",
+    "fields": {
+        "resume": [
+            "brian",
+            "Software Resume"
+        ],
+        "job": [
+            "brian",
+            "Cofounder",
+            "Capital Threads"
+        ],
+        "order": 2
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "e9af632a-7ae1-4350-bc93-be20024ecc85",
+            "be44d26d-f676-4111-96bc-1871d7f82ba1"
+        ],
+        "bullet": [
+            "be44d26d-f676-4111-96bc-1871d7f82ba1",
+            "Printed shirts"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "e9af632a-7ae1-4350-bc93-be20024ecc85",
+            "be44d26d-f676-4111-96bc-1871d7f82ba1"
+        ],
+        "bullet": [
+            "be44d26d-f676-4111-96bc-1871d7f82ba1",
+            "Got customers"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "e9af632a-7ae1-4350-bc93-be20024ecc85",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Did code"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "e9af632a-7ae1-4350-bc93-be20024ecc85",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Fixed bugs"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "e9af632a-7ae1-4350-bc93-be20024ecc85",
+            "be44d26d-f676-4111-96bc-1871d7f82ba1"
+        ],
+        "bullet": [
+            "be44d26d-f676-4111-96bc-1871d7f82ba1",
+            "Created Invoices"
+        ],
+        "order": 4,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "b267821b-1cbe-4f27-8423-d02b31dc1204",
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8"
+        ],
+        "bullet": [
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8",
+            "Cut Grass"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "b267821b-1cbe-4f27-8423-d02b31dc1204",
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8"
+        ],
+        "bullet": [
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8",
+            "Found customers"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "fa3e5048-95f6-4dde-b128-a7ffb18c9a0e",
+            "05e5750b-0c91-4d6f-815e-52269f9153e3"
+        ],
+        "bullet": [
+            "05e5750b-0c91-4d6f-815e-52269f9153e3",
+            "Wrestling whether they like it or not"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "fa3e5048-95f6-4dde-b128-a7ffb18c9a0e",
+            "05e5750b-0c91-4d6f-815e-52269f9153e3"
+        ],
+        "bullet": [
+            "05e5750b-0c91-4d6f-815e-52269f9153e3",
+            "Nipping at heels"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "fa3e5048-95f6-4dde-b128-a7ffb18c9a0e",
+            "9c8776ce-7fc0-49e4-9333-66f68843fd33"
+        ],
+        "bullet": [
+            "9c8776ce-7fc0-49e4-9333-66f68843fd33",
+            "Eat the chicken that falls down"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "fa3e5048-95f6-4dde-b128-a7ffb18c9a0e",
+            "9c8776ce-7fc0-49e4-9333-66f68843fd33"
+        ],
+        "bullet": [
+            "9c8776ce-7fc0-49e4-9333-66f68843fd33",
+            "Chew on onion skin, spit it out"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "e9af632a-7ae1-4350-bc93-be20024ecc85",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Handling client calls"
+        ],
+        "order": 3,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "e9af632a-7ae1-4350-bc93-be20024ecc85",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Handle client calls"
+        ],
+        "order": 5,
+        "is_displayed": false
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Did code"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Fixed bugs"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Wrote unit tests"
+        ],
+        "order": 3,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b"
+        ],
+        "bullet": [
+            "f29b2896-82e1-4c5f-83bd-78831e471d1b",
+            "Handle client calls"
+        ],
+        "order": 4,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "be44d26d-f676-4111-96bc-1871d7f82ba1"
+        ],
+        "bullet": [
+            "be44d26d-f676-4111-96bc-1871d7f82ba1",
+            "Printed shirts"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "be44d26d-f676-4111-96bc-1871d7f82ba1"
+        ],
+        "bullet": [
+            "be44d26d-f676-4111-96bc-1871d7f82ba1",
+            "Got customers"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "be44d26d-f676-4111-96bc-1871d7f82ba1"
+        ],
+        "bullet": [
+            "be44d26d-f676-4111-96bc-1871d7f82ba1",
+            "Created Invoices"
+        ],
+        "order": 3,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8"
+        ],
+        "bullet": [
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8",
+            "Cut Grass"
+        ],
+        "order": 1,
+        "is_displayed": true
+    }
+},
+{
+    "model": "resume.resumejobbullet",
+    "fields": {
+        "resume_job": [
+            "d81adde9-e5a0-412a-bb72-2c416b1ef027",
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8"
+        ],
+        "bullet": [
+            "ee3f2796-1ab7-4b42-b7f3-807a4783c8f8",
+            "Found customers"
+        ],
+        "order": 2,
+        "is_displayed": true
+    }
+}
+]
